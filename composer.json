@@ -1,0 +1,20 @@
+{
+  "name": "yeshili/hello",
+  "type": "library",
+  "description": "hello.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "YSL",
+      "email": "583870616@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "yeshili\\test\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=7.0"
+  }
+}
