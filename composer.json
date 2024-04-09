@@ -1,20 +1,17 @@
 {
-  "name": "yeshili/hello",
-  "type": "library",
-  "description": "hello.23",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "YSL",
-      "email": "583870616@qq.com"
+    "name": "yeshili/hello",
+    "autoload": {
+        "psr-4": {
+            "Yeshili\\Hello\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yeshili",
+            "email": "ye-shi-li@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
     }
-  ],
-  "autoload": {
-    "psr-4": {
-      "yeshili\\test\\": "src"
-    }
-  },
-  "require": {
-    "php": ">=7.0"
-  }
 }
