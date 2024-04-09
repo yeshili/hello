@@ -1,8 +1,12 @@
 {
     "name": "yeshili/hello",
+    "type": "library",
+    "description": "HelloWorld.",
+    "license": "MIT",
+    "keywords": ["hello"],
     "autoload": {
         "psr-4": {
-            "Yeshili\\Hello\\": "src/"
+            "HelloWorld\\": "src/"
         }
     },
     "authors": [
